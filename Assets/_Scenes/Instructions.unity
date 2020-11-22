@@ -773,8 +773,9 @@ MonoBehaviour:
 
 
     Win the game by getting your character to the end of
-    the level. Defeat enemies in your path and do not reach 0 health. Collected pick-ups
-    for points & bonuses.
+    the level. Defeat enemies in your path, do not be shot by them and do not reach
+    0 health. Collected pick-ups for points & bonuses. There are different kinds
+    of platforms to manuever through.
 
 
 '
@@ -786,8 +787,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278255360
-  m_fontColor: {r: 0, g: 1, b: 0, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -948,6 +949,14 @@ PrefabInstance:
     - target: {fileID: 1904804980230899569, guid: 6db2be2213820ac47a430516e77fe32e, type: 3}
       propertyPath: m_Name
       value: Background
+      objectReference: {fileID: 0}
+    - target: {fileID: 1904804980230899571, guid: 6db2be2213820ac47a430516e77fe32e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 1904804980230899571, guid: 6db2be2213820ac47a430516e77fe32e, type: 3}
+      propertyPath: m_Type
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6db2be2213820ac47a430516e77fe32e, type: 3}

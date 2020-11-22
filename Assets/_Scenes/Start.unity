@@ -1172,10 +1172,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Background
       objectReference: {fileID: 0}
-    - target: {fileID: 1904804980230899571, guid: 6db2be2213820ac47a430516e77fe32e, type: 3}
-      propertyPath: m_PreserveAspect
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6db2be2213820ac47a430516e77fe32e, type: 3}
 --- !u!1 &2067205066
